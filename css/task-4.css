@@ -1,0 +1,41 @@
+.login-form {
+  /* display: flex;
+  flex-direction: column; */
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  stroke-width: 3.5;
+  stroke: #808080;
+  margin-bottom: 8px;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  border-color: #4e75ff;
+}

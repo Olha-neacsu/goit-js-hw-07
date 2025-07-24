@@ -6,6 +6,6 @@ const inputIt = document.querySelector("#name-input");
 const outputIt = document.querySelector("#name-output");
 
 inputIt.addEventListener("input", () => {
-    const trimmedValue = inputIt.ariaValueMax.trim();
+    const trimmedValue = inputIt.value.trim();
     outputIt.textContent = trimmedValue === "" ? "Anonymous" : trimmedValue;
 });
